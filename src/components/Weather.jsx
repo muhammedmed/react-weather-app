@@ -16,7 +16,7 @@ function Weather(props) {
 
     
       const { isLoading, data, error } = useFetch(
-        "https://api.openweathermap.org/data/2.5/forecast?q="+props.city+"&appid=7676e323a0d8df4e1db85e74607b6815&units=metric#",
+        "https://api.openweathermap.org/data/2.5/forecast?q="+props.city+"&appid={YOUR API KEY}&units=metric#",
       )
       if (error) {
         return <div>
