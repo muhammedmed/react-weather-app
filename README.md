@@ -7,7 +7,7 @@ Weather data is retrieved from -> https://openweathermap.org/
 
 ## Screenshot
 
-![](img/weather.gif)
+![github](weather.gif)
 
 # Getting Started with Create React App
 
